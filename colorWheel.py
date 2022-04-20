@@ -28,16 +28,13 @@ def identifyColor(colorValues):
   red = colorValues[0]
   green = colorValues[1]
   blue = colorValues[2]
-  if (red >= 200 and green <= 200 ):
+  if (red >= 190 and green <= 200 ):
     return "red"
-
-  if (red >= 200 and green >= 200):
+  elif (red >= 200 and green >= 200):
     return "yellow"
-
-  if (red <= 200 and blue <= 200):
+  elif (red <= 200 and blue <= 200):
     return "green"
-
-  if (red <= 200 and blue >= 200):
+  elif (red <= 200 and blue >= 200):
     return "cyan"
   
  
